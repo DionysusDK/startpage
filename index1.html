@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<style>
+	
+	
+	html, body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(127, 127, 127);;
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url("HelveticaNeue-BoldExt.woff") format("woff");
+}	
+
+img {
+    display: block;
+    margin: 0 auto;
+	padding-top: 2%;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 2%;
+	color: #000000;
+	font-family: Helvetica;
+}
+
+.centerbox {
+	position: fixed;
+	left: 50%;
+}
+
+.box {
+
+	width: 11000px;
+	height: 50px;
+	background-color: rgb(127, 127, 127);
+	display: flex; 
+	justify-content: center;
+}
+
+
+
+.dropbtn {
+  background-color: rgb(127, 127, 127);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-right: 1px solid white;
+  font-family: Helvetica;
+
+}
+
+.dropbtn-alt {
+  background-color: rgb(127, 127, 127);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family: Helvetica;
+
+
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(127, 127, 127);
+  min-width: 98%;
+  bottom: 50px;
+  z-index: 1;
+  border: 1px solid white;
+  font-size: 10px;
+  
+
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropup-content a:hover {
+
+color: white;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  text-decoration: underline  #fff;
+	color: black;
+}
+
+.dropup:hover .dropbtn-alt {
+  text-decoration: underline  #fff;
+	color: black;
+}
+	
+	</style>
+
+
+<body>
+
+
+<img src="punpun.png">
+
+<div class="flex-container">
+<div class="box">
+<div class="dropup">
+  <button class="dropbtn">SOCIAL</button>
+  <div class="dropup-content">
+    <a href="https://www.facebook.com/">FACEBOOK</a>
+	<a href="https://twitter.com/">TWITTER</a>
+    <a href="https://www.linkedin.com/feed/">LINKEDIN</a>
+    <a href="https://mail.google.com/mail/u/0/">GMAIL</a>
+  </div>
+</div>
+
+<div class="dropup">
+  <button class="dropbtn">MEDIA</button>
+  <div class="dropup-content">
+    <a href="https://www.youtube.com/feed/subscriptions">YOUTUBE</a>
+    <a href="https://www.liveleak.com/">LIVELEAK</a>
+    <a href="https://www.patreon.com/thedickshow/posts">DICK SHOW</a>
+	<a href="https://dlive.tv/">DLIVE</a>
+	<a href="https://www.twitch.tv/directory">TWITCH</a>
+	<a href="http://radio.garden/live/lelystad/globe-radio/">RADIO</a>
+	<a href="https://www.imdb.com/">IMDB</a>
+	<a href="https://www.speedrun.com/">SPEEDRUN</a>
+  </div>
+</div>
+
+<div class="dropup">
+  <button class="dropbtn">NEWS</button>
+  <div class="dropup-content">
+    <a href="https://www.dr.dk/">DR</a>
+    <a href="https://jyllands-posten.dk/">JP</a>
+    <a href="https://www.berlingske.dk/">BERLING</a>
+	<a href="http://tv2.dk/">TV2</a>
+	<a href="https://ekstrabladet.dk/">EB</a>
+	<a href="https://www.kristeligt-dagblad.dk/">KD</a>
+	<a href="https://www.bt.dk/">BT</a>
+	<a href="https://denkorteavis.dk/">KORT AVIS</a>
+  </div>
+</div>
+
+<div class="dropup">
+  <button class="dropbtn">SHOP</button>
+  <div class="dropup-content">
+    <a href="https://rema1000.dk/om-rema-1000/avis/avis/">REMA1000</a>
+    <a href="https://www.dba.dk/">DBA</a>
+    <a href="https://www.pricerunner.dk/">PRICERUN</a>
+	<a href="https://www.aliexpress.com/">ALIX</a>
+	<a href="https://www.tilbudsugen.dk/tilbudsavis">TILBUDAVIS</a>
+	<a href="https://www.amazon.co.uk/">AMAZON</a>
+	<a href="https://www.newegg.com/">NEWEGG</a>
+	<a href="https://www.ebay.co.uk/">EBAY.UK</a>
+  </div>
+</div>
+
+<div class="dropup">
+  <button class="dropbtn">MISC</button>
+  <div class="dropup-content">
+    <a href="https://syria.liveuamap.com/">SYRIA</a>
+    <a href="http://www.dmi.dk/vejr/">DMI</a>
+	<a href="https://www.google.dk/maps">MAPS</a>
+  </div>
+</div>
+
+<div class="dropup">
+  <button class="dropbtn">ANIME</button>
+  <div class="dropup-content">
+    <a href="https://9anime.vip/">ANIME9</a>
+    <a href="https://myanimelist.net/">MYLIST</a>
+    <a href="https://www1.watchanime.info/">WATCHANI</a>
+	<a href="https://kissanime.ac/kissanime.html">KISSANI</a>
+	<a href="https://animelon.com/">ANIMELON</a>
+  </div>
+</div>
+
+<div class="dropup">
+  <button class="dropbtn">TRACKER</button>
+  <div class="dropup-content">
+    <a href="http://rarbgmirror.xyz/torrents.php">RARBG</a>
+    <a href="http://rarbgmirror.org/">ANITORRENT</a>
+    <a href="https://avistaz.to/">AVISTAZ</a>
+	<a href="https://alpharatio.cc/index.php">ALPHA</a>
+	<a href="https://yts.su/">BASED YIFI</a>
+  </div>
+</div>
+
+<div class="dropup">
+  <button class="dropbtn-alt">CHAN</button>
+  <div class="dropup-content">
+    <a href="https://www.4chan.org/">4CHAN</a>
+    <a href="https://8kun.top/index.html">8KUN</a>
+    <a href="https://lolcow.farm/pt/">FARM</a>
+	<a href="https://kiwifarms.net/">KIWI</a>
+	<a href="https://boards.4chan.org/pol/">POL</a>
+	<a href="https://boards.4chan.org/tv/">TV</a>
+  </div>
+</div>
+	
+	
+</div>
+	
+	
+</div>
+
+</body>
+</html>
